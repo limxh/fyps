@@ -35,14 +35,14 @@ plugins:
   - jekyll-pdf-embed
 
 #Define default front matter values
-defaults:
-  -
-    scope:
-      path: ""
-      type: "post"
-      values:
+#defaults:
+ # -
+  #  scope:
+   #   path: ""
+    #  type: "post"
+     # values:
       #values
-        layout: "post"
+      #  layout: "post"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
