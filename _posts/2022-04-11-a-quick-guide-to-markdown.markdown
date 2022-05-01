@@ -2,6 +2,7 @@
 layout: post
 title:  "A Quick guide to Markdown"
 date:   2022-04-11 14:33:23 +0800
+tags: markdown guide
 author: Lim Xin Hong
 ---
 
