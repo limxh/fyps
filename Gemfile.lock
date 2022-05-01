@@ -44,6 +44,9 @@ GEM
       jekyll (~> 4.0)
       jekyll-redirect-from (~> 0.16)
       jekyll-seo-tag (~> 2.6)
+    jekyll-theme-hacker (0.2.0)
+      jekyll (> 3.5, < 5.0)
+      jekyll-seo-tag (~> 2.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     jekyll-youtube (1.0.0)
@@ -86,6 +89,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   jekyll-pdf-embed
   jekyll-theme-consulting
+  jekyll-theme-hacker (~> 0.2.0)
   jekyll-youtube
   minima (~> 2.5)
   tzinfo (~> 1.2)
