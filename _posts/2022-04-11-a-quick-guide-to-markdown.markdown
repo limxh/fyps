@@ -1,13 +1,9 @@
 ---
 layout: post
-title:  "Article 1"
+title:  "A Quick guide to Markdown"
 date:   2022-04-11 14:33:23 +0800
+author: Lim Xin Hong
 ---
-
-## Welcome to Maple Publish
-
-## A Quick guide to Markdown
-
 
 Nearly all Markdown applications support the basic syntax outlined in John Gruber’s original design document. There are minor variations and discrepancies between Markdown processors.
 
@@ -305,24 +301,24 @@ The rendered output:
 To add an image, add an exclamation mark (!), followed by alt text in brackets, and the path or URL to the image asset in parentheses. You can optionally add a title after the URL in the parentheses.
 
 ````
-![logo](../images/images.jfif)
+![logo](/assets/images.jfif)
 ````
 
 The rendered output:
 
-![logo](../images/images.jfif)
+![logo](/assets/images.jfif)
 
 ## Linking images
 
 To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses.
 
 ````
-[![logo](../images/images.jfif)](https://www.macmillandictionary.com/dictionary/british/maple)
+[![logo](/assets/images.jfif)](https://www.macmillandictionary.com/dictionary/british/maple)
 ````
 
 The rendered output:
 
-[![logo](../images/images.jfif)](https://www.macmillandictionary.com/dictionary/british/maple)
+[![logo](/assets/images.jfif)](https://www.macmillandictionary.com/dictionary/british/maple)
 
 ## Escaping characters
 
@@ -340,7 +336,7 @@ To use HTML, place the tags in the text of your Markdown-formatted file.
 ## Video
 
 <video width="320" height="240" controls>
-  <source src="../video/vid01.mp4" type="video/mp4">
+  <source src="/assets/vid01.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
